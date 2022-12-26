@@ -24,3 +24,7 @@ Options:
 ![image-20221226165716440](https://i0.hdslb.com/bfs/album/ffa1f9847d2328554554b83d8de977e165d1c686.png)
 
 ![image-20221226170150836](https://i0.hdslb.com/bfs/album/cf7cf61891c02e8fedfe9884432efcd0a56b1209.png)
+
+## exe打包
+
+https://github.com/langsasec/chafofa/releases
