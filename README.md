@@ -6,6 +6,8 @@
 
 程序源码中自带了普通会员，如果自己有高级会员自行替换。
 
+查爱站百度权重可看https://github.com/langsasec/chaaizhan,我就不写联动了
+
 ## 使用
 
 ```sh
