@@ -6,7 +6,7 @@
 
 程序源码中自带了普通会员，如果自己有高级会员自行替换。
 
-查爱站百度权重可看https://github.com/langsasec/chaaizhan， 我就不再写联动了
+查爱站百度权重可看https://github.com/langsasec/chaaizhan我就不再写联动了
 
 ## 使用
 
