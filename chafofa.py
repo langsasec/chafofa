@@ -41,7 +41,7 @@ def chafofa(f, s):
     dict_data = json.loads(res)  # json转成python字典
     results = dict_data.get('results')
     book = xlwt.Workbook(encoding='utf-8', style_compression=0)
-    sheet = book.add_sheet(f'{f}_fofa查询结果', cell_overwrite_ok=True)
+    sheet = book.add_sheet(f'fofa查询结果', cell_overwrite_ok=True)
     col = ('IP', 'host', '端口', '协议', '网站标题', '网站server')
     for i in range(0, 6):
         sheet.write(0, i, col[i])
@@ -49,7 +49,7 @@ def chafofa(f, s):
         data=results[i]
         for j in range(0, 6):
             sheet.write(i+1, j, data[j])
-    path=f'{f}_{str(time.time().__hash__())}_fofa查询结果.xls'
+    path=f'{str(time.time().__hash__())}_fofa查询结果.xls'
     book.save(path)
     print(f"表格已保存为{path}")
 
