@@ -36,7 +36,7 @@ def jm_base64(string):
 @click.option("-s", default=100, help="请输入所要查询的条数，默认100条")
 def chafofa(f, s):
     qbase64 = str(jm_base64(f), 'UTF-8')
-    req = f"https://fofa.info/api/v1/search/all?email=3540005812@qq.com&key=a5f1003dfd75df0e642950536c41bddc&qbase64={qbase64}&size={s}&fields=ip,host,port,protocol,title,server"
+    req = f"https://fofa.info/api/v1/search/all?email=3540005812@qq.com&key=e07547984526bca8f6716578e68e5f5d&qbase64={qbase64}&size={s}&fields=ip,host,port,protocol,title,server"
     res = requests.get(req).content.decode("utf-8")
     dict_data = json.loads(res)  # json转成python字典
     results = dict_data.get('results')
